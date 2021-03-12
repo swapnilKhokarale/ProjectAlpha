@@ -19,6 +19,7 @@ public class contoller {
 	
 	@GetMapping(value = "name/{name}/{name2}")
 	public String name(@PathVariable String name,@PathVariable String name2) {
+		System.out.println("swapnil and mahi");
 		return name+name2;
 	}
 } 
