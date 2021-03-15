@@ -33,6 +33,7 @@ public class client {
 		List<Student>li=query.list();
 		System.out.println(li);
 		System.out.println("swapnil");
+		System.out.println("student added in a GIT");
 		
 	}
 }
