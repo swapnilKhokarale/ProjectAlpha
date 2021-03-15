@@ -29,9 +29,10 @@ public class client {
 		List<Student>list = criteria.list();
 		System.out.println(list);*/
 		
-		Query query =session.createQuery(" from student");
+		Query query =session.createQuery(" from Student");
 		List<Student>li=query.list();
 		System.out.println(li);
+		System.out.println("swapnil");
 		
 	}
 }
